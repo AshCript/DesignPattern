@@ -15,6 +15,5 @@ public class Caramel extends BoissonDecorator{
   @Override
   public double cout() {
     return boisson.cout() + 1.5;
-  }
-  
+  } 
 }

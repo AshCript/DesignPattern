@@ -9,7 +9,6 @@ public class Singleton {
   }
   private Singleton(){
     System.out.println("Counter : " + ++counter);
-
   }
   public void printDetails(String msg){
     System.out.println(msg);
