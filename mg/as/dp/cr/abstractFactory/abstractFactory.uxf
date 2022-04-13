@@ -1,0 +1,66 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Text&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;60&lt;/x&gt;&lt;y&gt;120&lt;/y&gt;&lt;w&gt;540&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Structural Design Pattern
+DECORATOR
+-
+style=wordwrap
+fontsize=30
+halign=center
+
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;</help_text><element><id>UMLClass</id><coordinates><x>150</x><y>330</y><w>190</w><h>80</h></coordinates><panel_attributes>ConcreteProductA1
+--
+
+--
+operationA1() : void
+operationA2() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>330</y><w>190</w><h>80</h></coordinates><panel_attributes>ConcreteProductA2
+--
+
+--
+operationA1() : void
+operationA2() : void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;ConcreteProductA2
+--
+
+--
+operationA1() : void
+operationA2() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>270</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;160;50;10;50;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>270</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;160;50;160;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>170</y><w>120</w><h>110</h></coordinates><panel_attributes>/AbstractProductA/
+--
+
+--
+/operationA1() : void/
+/operationA2() : void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>200</y><w>280</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;260;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>170</y><w>210</w><h>110</h></coordinates><panel_attributes>/AbstractFactory/
+--
+...
+--
+/createProductA() : AbstractProductA/
+/createProductB() : AbstractProductB/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>460</y><w>210</w><h>80</h></coordinates><panel_attributes>ConcreteFactory1
+--
+
+--
+createProductA() : AbstractProductA
+createProductB() : AbstractProductB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>270</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>460</y><w>210</w><h>80</h></coordinates><panel_attributes>ConcreteFactory2
+--
+
+--
+createProductA() : AbstractProductA
+createProductB() : AbstractProductB</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>270</y><w>280</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140;260;140;260;190</additional_attributes></element><element><id>Text</id><coordinates><x>399</x><y>10</y><w>540</w><h>90</h></coordinates><panel_attributes>Creational Design Pattern
+ABSTRACT FACTORY
+-
+style=wordwrap
+fontsize=30
+halign=center
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>450</y><w>120</w><h>110</h></coordinates><panel_attributes>/AbstractProductB/
+--
+
+--
+/operationB1() : void/
+/operationB2() : void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>550</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;160;50;10;50;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>550</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;160;50;160;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>610</y><w>190</w><h>80</h></coordinates><panel_attributes>ConcreteProductB1
+--
+
+--
+operationB1() : void
+operationB2() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>610</y><w>190</w><h>80</h></coordinates><panel_attributes>ConcreteProductB2
+--
+
+--
+operationB1() : void
+operationB2() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>536</y><w>410</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;130;390;10</additional_attributes></element></diagram>

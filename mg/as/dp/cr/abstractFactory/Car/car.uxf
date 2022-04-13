@@ -1,0 +1,39 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>280</y><w>80</w><h>80</h></coordinates><panel_attributes>Brio
+--
+
+--
+drive() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>280</y><w>80</w><h>80</h></coordinates><panel_attributes>City
+--
+
+--
+drive() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>180</y><w>240</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>220;10;220;80;10;80;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>180</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;10;130;80;10;80;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>120</y><w>120</w><h>70</h></coordinates><panel_attributes>/Car/
+--
+
+--
+/drive() : void/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>270</y><w>140</w><h>70</h></coordinates><panel_attributes>/CarFactory/
+--
+...
+--
+/createCar(String) : Car/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>520</y><w>140</w><h>80</h></coordinates><panel_attributes>HyundaiCarFactory
+--
+
+--
+createCar(String) : Car</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>330</y><w>130</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;110;130;10;130;10;190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>520</y><w>140</w><h>80</h></coordinates><panel_attributes>HondaCarFactory
+--
+
+--
+createCar(String) : Car</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>330</y><w>110</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;130;90;130;90;190</additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>280</y><w>80</w><h>80</h></coordinates><panel_attributes>I10
+--
+
+--
+drive() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>180</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>40;10;40;80;10;80;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>280</y><w>80</w><h>80</h></coordinates><panel_attributes>I20
+--
+
+--
+drive() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>180</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80;70;80;70;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>110</y><w>200</w><h>80</h></coordinates><panel_attributes>FactoryProducer
+--
+
+--
+getCarFactory(String) : CarFactory</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>180</y><w>110</w><h>110</h></coordinates><panel_attributes>lt=-
+creates factory</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>350</y><w>120</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;190</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>350</y><w>220</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;70;200;190</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>350</y><w>650</w><h>320</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;300;630;300;630;250</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>350</y><w>650</w><h>320</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;90;10;300;630;300;630;250</additional_attributes></element></diagram>

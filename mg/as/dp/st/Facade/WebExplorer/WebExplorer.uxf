@@ -1,0 +1,31 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>Text</id><coordinates><x>100</x><y>10</y><w>540</w><h>130</h></coordinates><panel_attributes>Structural Design Pattern
+FACADE
+Example : WebExplorer
+-
+style=wordwrap
+fontsize=30
+halign=center
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>168</y><w>290</w><h>70</h></coordinates><panel_attributes>WebExplorerHelperFacade
+--
+
+--
+static generateReports(explorer, report, test) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>358</y><w>250</w><h>100</h></coordinates><panel_attributes>Chrome
+--
+
+--
+static getDriver() : Driver
+static generateHtmlReport(test, driver) : void
+static generateJUnitReport(test, driver) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>228</y><w>150</w><h>150</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;130;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>468</y><w>140</w><h>70</h></coordinates><panel_attributes>Main
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>198</y><w>210</w><h>290</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>190;10;10;10;10;270</additional_attributes></element><element><id>Text</id><coordinates><x>20</x><y>198</y><w>80</w><h>30</h></coordinates><panel_attributes>uses
+style=wordwrap
+halign=center
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>228</y><w>120</w><h>150</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>358</y><w>250</w><h>100</h></coordinates><panel_attributes>Firefox
+--
+
+--
+static getDriver() : Driver
+static generateHtmlReport(test, driver) : void
+static generateJUnitReport(test, driver) : void</panel_attributes><additional_attributes></additional_attributes></element></diagram>

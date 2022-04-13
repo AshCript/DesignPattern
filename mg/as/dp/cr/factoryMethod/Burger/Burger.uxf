@@ -1,0 +1,30 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>370</y><w>110</w><h>80</h></coordinates><panel_attributes>BeefBurger
+--
+
+--
+prepare() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>370</y><w>110</w><h>80</h></coordinates><panel_attributes>VeggieBurger
+--
+
+--
+prepare() : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>270</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;80;70;10;70;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>270</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70;90;70;90;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>170</y><w>120</w><h>110</h></coordinates><panel_attributes>/Burger/
+--
+
+--
+/prepare() : void/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>200</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>170</y><w>170</w><h>110</h></coordinates><panel_attributes>/BurgerRestaurant/
+--
+
+--
+orderBurger() : Burger
+/createBurger() : Burger/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>230</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;100;10;100;80</additional_attributes></element><element><id>UMLNote</id><coordinates><x>640</x><y>310</y><w>140</w><h>70</h></coordinates><panel_attributes>Factory Method
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>490</y><w>150</w><h>80</h></coordinates><panel_attributes>BeefBurgerRestaurant
+--
+
+--
+createBurger() : Burger </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>270</y><w>130</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;110;130;10;130;10;220</additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>490</y><w>150</w><h>80</h></coordinates><panel_attributes>VeggieBurgerRestaurant
+--
+
+--
+createBurger() : Burger</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>270</y><w>90</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;130;70;130;70;220</additional_attributes></element></diagram>
